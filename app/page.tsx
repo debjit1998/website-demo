@@ -118,9 +118,7 @@ export default function Home() {
 
         <div className="mt-10 flex gap-4">
           <Button variant="green">Click Me</Button>
-          <FlowButton pill color="failure" className="bg-red-500">
-            Flow Button
-          </FlowButton>
+          <FlowButton pill>Flow Button</FlowButton>
         </div>
       </main>
     </Fragment>
