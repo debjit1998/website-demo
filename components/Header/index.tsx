@@ -17,7 +17,7 @@ const Header = () => {
           <Link scroll={false} href='/' className='flex items-center'>
             <Image
               priority
-              src='/icons/header/logo.svg'
+              src='/website-demo/icons/header/logo.svg'
               width={82}
               height={32.5}
               alt='logo'
