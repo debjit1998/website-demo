@@ -16,7 +16,6 @@ type Props = HTMLImageProps | NextImageProps;
 
 const CustomImage: FC<Props> = (props) => {
   const pathname = usePathname();
-  console.log(pathname);
 
   const baseUrl = pathname.split('/').includes('website-demo')
     ? 'website-demo'
