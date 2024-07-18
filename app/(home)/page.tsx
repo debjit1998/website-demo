@@ -1,4 +1,5 @@
 import Compliance from '@/components/Compliance';
+import CustomImage from '@/components/CustomImage';
 import Testimonials from '@/components/Testimonials';
 
 import Companies from './components/Companies';
@@ -27,6 +28,7 @@ const HomePage = () => {
       <Compliance />
       <Testimonials className='mt-6 lg:mt-10' />
       <LeadYourTeam />
+      <CustomImage alt='img' src='/icons/footer/linkedin.svg' />
     </main>
   );
 };
